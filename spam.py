@@ -1,4 +1,5 @@
 from userbot import bot
+from userbot.Config import *
 from . import *
 import asyncio
 import base64
