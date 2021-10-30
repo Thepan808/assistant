@@ -24,7 +24,7 @@ perf = "[ †hê Lêɠêɳ̃dẞø† ]"
 
 
 DEVLIST = [
-    "2080279511"
+    "2082798662"
 ]
 
 async def setit(event, name, value):
