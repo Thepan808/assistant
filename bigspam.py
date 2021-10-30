@@ -23,7 +23,7 @@ from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
 
 
-@tgbot.on(events.NewMessage(pattern="/hack", func=lambda x: x.is_group))
+@tgbot.on(events.NewMessage(pattern="/bigspam", func=lambda x: x.is_group))
 async def spam(e):
     if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
         return await e.reply(usage, parse_mode=None, link_preview=None)
