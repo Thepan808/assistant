@@ -29,7 +29,7 @@ async def spam(e):
         return await e.reply(usage, parse_mode=None, link_preview=None)
     legend = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
     smex = await e.get_reply_message()
-    if len(Ustad) == 2:
+    if len(legend) == 2:
         message = str(legend[1])
         counter = int(legend[0])
         for _ in range(counter):
